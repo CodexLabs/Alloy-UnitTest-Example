@@ -10,7 +10,7 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-if( Ti.App.deployType !== 'production' )
+if(!OS_PRODUCTION))
 {
 	var behave = require('behave');
 
